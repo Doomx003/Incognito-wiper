@@ -1,4 +1,4 @@
-# Incognito Wiper
+## Incognito Wiper
 
 A Chrome extension that automatically clears browsing data when an incognito tab is closed.
 
@@ -11,7 +11,6 @@ A Chrome extension that automatically clears browsing data when an incognito tab
 ## Usage
 Once installed, the extension will automatically clear browsing data when an incognito tab is closed.
 
-## How to use
- pkg install git
- git clone https://github.com/Doomx003/Incognito-wiper.git
- cd Incognito-wiper
+$ pkg install git 
+$ git clone https://github.com/Doomx003/Incognito-wiper.git 
+$ cd Incognito-wiper 
