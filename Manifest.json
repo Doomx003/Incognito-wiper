@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Incognito Data Eraser",
+  "version": "1.0",
+  "permissions": [
+    "browsingData",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "incognito": "split"
+}
