@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Text Example</title>
+  <style>
+    body {
+      background-color: red;
+      position: relative;
+      height: 100vh;
+      margin: 0;
+    }
+    .neon-text {
+      color: green;
+      font-size: 100px;
+      text-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    .incognito-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="neon-text">Dx</div>
+  <img class="incognito-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Incognito_mode_icon.png" alt="Incognito Icon" width="100">
+</body>
+</html>
