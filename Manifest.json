@@ -10,5 +10,8 @@
   "background": {
     "service_worker": "background.js"
   },
-  "incognito": "split"
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "background.html"
+  }
 }
